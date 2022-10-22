@@ -1,9 +1,11 @@
+import HomePage from "../pages/HomePage";
+
 const HomeRoute = {
     path: "/",
-    component: <h1>qwerty</h1>,
-    layout: <></>,
+    component: HomePage,
 }
 
 export const routes = [
     HomeRoute,
 ]
+
