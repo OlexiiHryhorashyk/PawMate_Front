@@ -1,0 +1,13 @@
+.logo{
+    position: absolute;
+    width: 145px;
+    height: 48px;
+    left: 20px;
+    top: 20px;
+    background: #FCF4EC;
+    background: url(./LoginPage/design/logo_pawmate.png) no-repeat; /* Добавляем фон */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}

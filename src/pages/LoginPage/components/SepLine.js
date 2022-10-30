@@ -4,7 +4,7 @@ import "../index.css"
 
 const SepLine = () => {
     return (
-        <div id="sep_line"></div>
+        <div id="sep_line"/>
     )
 }
 

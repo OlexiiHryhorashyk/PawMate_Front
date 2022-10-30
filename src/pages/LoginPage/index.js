@@ -6,10 +6,8 @@ import RightSide from "./components/RightSide";
 const LoginPage = () => {
     return (
         <div>
-            <LeftSide>
-            </LeftSide>
-            <RightSide>
-            </RightSide>
+            <LeftSide/>
+            <RightSide/>
         </div>
     )
 }

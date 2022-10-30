@@ -1,11 +1,10 @@
 import React from "react"
-import "../index.css"
+import "../../common.css"
 
 
 const Logo = () => {
     return (
-        <div className="logo">
-        </div>
+            <div className="logo"/>
             )
 }
 
