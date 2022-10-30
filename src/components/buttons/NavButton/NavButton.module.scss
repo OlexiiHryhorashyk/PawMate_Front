@@ -15,7 +15,7 @@
   cursor: pointer;
   position: relative;
 
-  &__active {
+  &.active {
     &:after {
       display: block;
       content: '';

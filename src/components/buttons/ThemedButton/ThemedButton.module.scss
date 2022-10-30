@@ -1,0 +1,25 @@
+.ThemedButton {
+  border-radius: 12px;
+  padding: 10px 16px;
+  border: none;
+  outline: none;
+  background: transparent;
+  transition: 0.2s linear;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(232, 232, 232);
+  }
+
+  &.dark {
+    background: #333333;
+    color: white;
+
+    &:hover {
+      background: rgb(40, 40, 40);
+    }
+  }
+}
