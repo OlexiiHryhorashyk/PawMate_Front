@@ -8,14 +8,3 @@ export default function NavButton({ title, isActive, onClick }) {
     </button>
   );
 }
-
-/* <>
-{buttons.map((button, i) => (
-  <NavButton
-    key={i}
-    isActive={i === activeId}
-    title={button}
-    onClick={() => setActiveId(i)}
-  />
-))}
-</> */
