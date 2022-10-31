@@ -7,8 +7,7 @@ const HomeRoute = {
 }
 
 const LoginRoute = {
-    path: "/" +
-        "login_page",
+    path: "/login_page",
     component: LoginPage,
 }
 export const routes = [

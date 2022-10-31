@@ -10,10 +10,8 @@ import "../index.css"
 const LeftSide = () => {
     return (
         <div className="left_side">
-            <Logo>
-            </Logo>
-            <LoginForm>
-            </LoginForm>
+            <Logo/>
+            <LoginForm/>
         </div>
     )
 }
