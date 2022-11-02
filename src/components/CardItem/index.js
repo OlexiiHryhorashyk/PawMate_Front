@@ -13,7 +13,7 @@ function CardItem(props) {
                 <div className="card__content-type">{props.type}</div>
                 <div className="card__content-name">{props.name}</div>
                 {
-                    props.price === null ?
+                    !props.price === true ?
                         null
                         :
                         <div className="card__content-price">{props.price} грн.</div>
