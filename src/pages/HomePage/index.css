@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+input,
+textarea,
+fieldset {
+  border: none;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+img {
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.home__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 140px;
+  margin-bottom: 60px;
+  line-height: 40px;
+  text-align: center;
+  color: #25201a;
+}
+
+.home__description {
+  background: #cccccc;
+  margin: 0 auto;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 25px;
+  display: flex;
+  flex-grow: 1;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+/* tabs */
+
+.tabs {
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.tabRow {
+  display: flex;
+  width: 100%;
+}
+
+.tabList {
+  padding-left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tabItem {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  color: #000000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.tabActive {
+  background-color: white;
+  border: solid #000000;
+  border-width: 0px 0px 3px 0px;
+}
