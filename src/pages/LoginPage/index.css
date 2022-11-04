@@ -147,9 +147,11 @@ input{
     padding: 10px 16px;
     gap: 4px;
     width: 357px;
-    height: 0;
+    height: 4px;
     background: #F2F0ED;
-    border: 12px solid #F2F0ED;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2F0ED;
     border-radius: 12px;
     flex: none;
     order: 1;
@@ -160,6 +162,7 @@ input{
 input:focus{
     color: #141B1F
 }
+
 #sep_line{
     width: 400px;
     height: 25px;
@@ -209,7 +212,7 @@ input:focus{
     width: 24px;
     height: 24px;
     position: absolute;
-    top: 278px;
+    top: 280px;
     left: 376px;
     background-image: url(./design/EyeSlash.png);
     background-position: center;

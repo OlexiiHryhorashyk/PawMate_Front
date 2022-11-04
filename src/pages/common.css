@@ -11,3 +11,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+#login_form{
+    text-align: left;
+    position: absolute;
+    display: block;
+    margin: 25% 10% 10% 20%;
+}
