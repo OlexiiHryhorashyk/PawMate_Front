@@ -1,0 +1,259 @@
+.header {
+    display: grid;
+    align-items: center;
+    gap: 30px;
+    padding: 16px 80px;
+    font-size: 16px;
+    border-bottom: 1px solid #EBEBEB;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+            "menu tab actions";
+}
+
+@media screen and (max-width: 1100px) {
+    .header {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "menu actions"
+            "tab tab";
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .header {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        grid-template-areas:
+            "menu"
+            "actions"
+            "tab";
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .header {
+        padding: 16px 0;
+    }
+}
+
+.header__menu {
+    display: flex;
+    gap: 24px;
+    flex: 1 0 0;
+    grid-area: menu;
+}
+
+.header__menu-logo img {
+    width: 131px;
+    height: 44px;
+}
+
+.header__menu-lang {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header__menu-lang-item {
+    color: #A0A0A0;
+    border: none;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.header__menu-lang-item > span {
+    display: none;
+}
+
+.header__menu-lang-item_selected {
+    color: black;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.header__menu-lang-item_selected > span {
+    display: inline;
+}
+
+.header__menu-lang-item:not(:last-child):after {
+    content: "|";
+    margin: 0 5px 0 5px;
+    color: black;
+}
+
+.header__menu-loc {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header__menu-loc > img {
+    position: absolute;
+    left: 10px;
+    width: 18px;
+    height: 18px;
+    z-index: 0;
+}
+
+.header__menu-loc > select {
+    font-size: 16px;
+    padding: 12px 20px 12px 28px;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    background-color: transparent;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.header__tab_container {
+    display: grid;
+    justify-content: center;
+    grid-area: tab;
+}
+
+.header__tab {
+    display: flex;
+    flex-basis: 1000px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    background-color: #EDEDED;
+    padding: 4px;
+    border-radius: 12px;
+    width: fit-content;
+    margin: 0;
+}
+
+.header__tab-item {
+    border-radius: 12px;
+}
+
+.header__tab-item > button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.header__tab-item_selected {
+    background-color: white;
+
+}
+
+.header__tab-item > button {
+}
+
+.header__tab-item > button > img {
+    width: 24px;
+    height: 24px;
+}
+
+.header__actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    grid-area: actions;
+}
+
+.header__actions-icon {
+}
+
+.actions-search {
+}
+
+.actions-like {
+}
+
+.actions-notifications {
+    position: relative;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.actions-notifications_new {
+}
+
+.actions-notifications_new:after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #D80909;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header__actions-menu {
+}
+
+.menu {
+    box-sizing: border-box;
+    width: 100px;
+    position: relative;
+    border: 1px solid #ECECEC;
+    border-radius: 9px;
+}
+
+.menu_open {
+    position: relative;
+    background-color: #EDEDED;
+    border: 1px solid #ECECEC;
+    border-radius: 9px 9px 0 0;
+}
+
+.menu__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100px;
+    box-sizing: border-box;
+    padding: 10px 0;
+
+}
+
+.menu__items {
+    box-sizing: border-box;
+    position: absolute;
+    left: -1px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEDED;
+    width: 100px;
+}
+
+.menu__items_hidden {
+    display: none;
+}
+
+.menu__item {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.menu__item:not(:last-child) {
+    border-bottom: 1px solid black;
+}
