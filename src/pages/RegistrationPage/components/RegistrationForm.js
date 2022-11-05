@@ -4,7 +4,7 @@ import "../index.css"
 import "../../LoginPage/index.css"
 import "../../common.css"
 import RegistrationText from "./RegistrationText";
-import {validEmail, validPassword, validPhoneNumber, validUsername} from './regex.js';
+import {validEmail, validPassword, validPhoneNumber, validUsername} from '../../regex.js';
 
 
 
