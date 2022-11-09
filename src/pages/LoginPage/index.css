@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("./Fonts/static/Inter-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("./Fonts/static/Inter-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.left_side{
+    position: absolute;
+    color: #ffffff;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.right_side{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    background: #FCF4EC;
+    background: url(./design/login_background.png) no-repeat; /* Добавляем фон */
+    background-size: 100%;
+}
+#right_side_text{
+    position: absolute;
+    width: 580px;
+    height: 112px;
+    margin-left: 42px;
+    margin-top: 40%;
+    text-align: center;
+    font-family: 'Inter-Regular', serif;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    color: #25201A;
+}
+
+#login_form{
+    text-align: left;
+    position: static;
+    display: block;
+    margin: 10% 10% 10% 20%;
+}
+label{
+    width: max-content;
+    inline-size: max-content;
+    height: max-content;
+    font-family: 'Inter-Bold', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color: #25201A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 8px;
+}
+.confirm_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 4px;
+    font-family: 'Inter-Regular', serif;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    width: 412px;
+    height: 32px;
+    margin-top: 20px;
+    background: #E57309;
+    border: 12px solid #E57309;
+    border-radius: 12px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.confirm_button:hover{
+    background: rgba(252, 168, 90, 0.98);
+    border-color: rgba(252, 168, 90, 0.98);
+}
+#facebook_login_button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 16px;
+    gap: 10px;
+    margin-top: 20px;
+    width: 412px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #DCDBDA;
+    border-radius: 12px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    background: url(./design/facebook-icon.png) no-repeat;
+    background-position: 20% 40%;
+}
+#facebook_login_button:hover{
+    border-color: #E57309;
+}
+#google_login_button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 412px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #DCDBDA;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    background: url(./design/google-icon.png) no-repeat;
+    background-position: 32% 40%;
+
+}
+#google_login_button:hover{
+    border-color: #E57309;
+}
+input{
+    color: #877F78;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 4px;
+    width: 357px;
+    height: 4px;
+    background: #F2F0ED;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2F0ED;
+    border-radius: 12px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    box-shadow: inset 20px 20px 0 20px #F2F0ED
+}
+input:focus{
+    color: #141B1F
+}
+
+#sep_line{
+    width: 400px;
+    height: 25px;
+    margin: 30px 10px 0 0;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    background: url(./design/line.png) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ і Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+}
+#login_text{
+    width: max-content;
+    inline-size: max-content;
+    height: max-content;
+    margin-top: -65px;
+    font-family: 'Inter-Bold', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #25201A;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.login_page_text{
+    width: max-content;
+    inline-size: max-content;
+    height: max-content;
+    font-family: 'Inter-Regular', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: -15px;
+    color: #837D78;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.showPassword{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 280px;
+    left: 376px;
+    background-image: url(./design/EyeSlash.png);
+    background-position: center;
+    background-repeat: no-repeat; /*Убираем повтор изображения*/
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ і Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+}
+#regist_url{
+    color: #E57309;
+    text-decoration: none;
+}
+#regist_url:hover {
+    text-decoration: underline;
+}
+
+#login_error{
+    width: max-content;
+    inline-size: max-content;
+    height: max-content;
+    font-family: 'Inter-Bold', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #e54409;
+    flex: none;
+    margin-bottom: -20px;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}

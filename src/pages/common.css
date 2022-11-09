@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("./LoginPage/Fonts/static/Inter-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("./LoginPage/Fonts/static/Inter-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.logo{
+    position: static;
+    width: 145px;
+    height: 48px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: #FCF4EC;
+    background: url(./LoginPage/design/logo_pawmate.png) no-repeat; /* Добавляем фон */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+#login_form{
+    text-align: left;
+    position: absolute;
+    display: block;
+    margin: 14% 10% 10% 20%;
+}

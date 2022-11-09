@@ -1,0 +1,65 @@
+#reg_show_pass{
+    top: 218px
+}
+#registration_form{
+    text-align: left;
+    position: static;
+    display: block;
+    margin: 10% 10% 10% 20%;
+}
+#registration_text{
+    width: max-content;
+    inline-size: max-content;
+    height: max-content;
+    margin-top: -85px;
+    margin-left: -3px;
+    font-family: 'Inter-Bold', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #25201A;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#regist_confirm{
+    margin-top: 28px;
+}
+#regist_error{
+    width: max-content;
+    inline-size: max-content;
+    height: max-content;
+    font-family: 'Inter-Bold', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #e54409;
+    flex: none;
+    margin-bottom: -20px;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+input{
+    color: #877F78;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 4px;
+    width: 375px;
+    height: 19px;
+    margin-bottom: 3px;
+    background: #F2F0ED;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #F2F0ED;
+    border-radius: 17px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    box-shadow: inset 20px 20px 0 20px #F2F0ED
+}

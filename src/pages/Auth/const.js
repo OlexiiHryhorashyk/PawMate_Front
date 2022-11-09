@@ -1,0 +1,18 @@
+export const FIREBASE_GET_USER_REQUEST = "FIREBASE_GET_USER_REQUEST"
+export const FIREBASE_GET_USER_SUCCESS = "FIREBASE_GET_USER_SUCCESS"
+
+export const LOGIN_REQUEST = "LOGIN_REQUEST"
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS"
+export const LOGIN_FAILURE = "LOGIN_FAILURE"
+
+export const LOGOUT_REQUEST = "LOGOUT_REQUEST"
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS"
+
+export const LOCAL_STORAGE_REQUEST = "LOCAL_STORAGE_REQUEST"
+export const LOCAL_STORAGE_SUCCESS = "LOCAL_STORAGE_SUCCESS"
+
+export const AUTH_ERRORS = {
+    USER_NOT_FOUND: "auth/user-not-found",
+    WRONG_PASSWORD: "auth/wrong-password",
+    USER_ARCHIVED: "auth/user-archived"
+}
