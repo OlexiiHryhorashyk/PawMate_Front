@@ -1,7 +1,7 @@
 import React from "react"
 import "../../pages/common.css"
 import "./PetCardInfo.css"
-import ImageSlider from "./ImageSlider";
+
 
 
 
@@ -13,7 +13,7 @@ const PetCardInfo = () => {
         <div className="CardListing">
             <p className="card_type">{cardType}</p>
             <h1 className="card_title">{cardTitle}</h1>
-            <ImageSlider/>
+
         </div>
     )
 }
