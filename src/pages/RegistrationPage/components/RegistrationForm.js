@@ -50,6 +50,7 @@ const RegistrationForm = () => {
             return true;
         }
     }
+
     function ValidateEmail(){
         let emailInput = document.getElementById('email')
         emailInput.style.borderColor = "#F2F0ED";

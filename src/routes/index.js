@@ -1,6 +1,7 @@
 import HomePage from "../pages/HomePage";
 import LoginPage from "../pages/LoginPage";
 import RegistrationPage from "../pages/RegistrationPage";
+import PetCardInfo from "../components/PetCardInfo/PetCardInfo";
 
 const HomeRoute = {
     path: "/",
@@ -17,7 +18,11 @@ const RegistrationRoute = {
     component: RegistrationPage,
 }
 
+const PetCardInfoRoute = {
+    path: "/pet_card_info",
+    component: PetCardInfo,
+}
 export const routes = [
-    HomeRoute, LoginRoute, RegistrationRoute
+    HomeRoute, LoginRoute, RegistrationRoute, PetCardInfoRoute
 ]
 

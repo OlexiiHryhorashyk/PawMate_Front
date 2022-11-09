@@ -46,9 +46,9 @@
 
 #login_form{
     text-align: left;
-    position: absolute;
+    position: static;
     display: block;
-    margin: 25% 10% 10% 20%;
+    margin: 10% 10% 10% 20%;
 }
 label{
     width: max-content;
