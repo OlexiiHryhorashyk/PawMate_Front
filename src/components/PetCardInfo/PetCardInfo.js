@@ -2,7 +2,8 @@ import React from "react"
 import "../../pages/common.css"
 import "./PetCardInfo.css"
 import ImageSlider from "./subcomponents/ImageSlider";
-import locationIcon from "./img/location_icon.png"
+import locationIcon from "./subcomponents/icons/location_icon.png"
+import Contacts from "./subcomponents/Contacts";
 
 
 
@@ -17,8 +18,8 @@ const PetCardInfo = () => {
             <p className="card_type">{cardType}</p>
             <h1 className="card_title">{cardTitle}</h1>
             <p className="card_location"><img id='locationIcon' src={locationIcon} alt={'*'}/><span id={"loc_text"}>{cardLocation}</span></p>
-
             <ImageSlider/>
+            <Contacts/>
         </div>
     )
 }

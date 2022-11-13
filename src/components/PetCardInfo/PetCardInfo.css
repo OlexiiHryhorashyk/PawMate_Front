@@ -72,5 +72,95 @@
 #loc_text{
     margin-left: 22px;
 }
+.ContactsBox{
+    box-sizing: border-box;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    left: 770px;
+    top: 120px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 16px;
+}
+
+.OwnerImage{
+    width: 64px;
+    height: 64px;
+    background: #F5F5F5;
+    border-radius: 100px;
+    margin: 20px;
+    position: relative
+}
+
+.OwnerImage p{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Inter-Bold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.ContactOwnerButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 4px;
+    margin: 20px 10px 15px;
+    width: 348px;
+    height: 40px;
+    left: 32px;
+    top: 124px;
+    background: #333333;
+    border-radius: 9px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.OwnerContacts{
+    position: absolute;
+    top: 5px;
+    left: 120px;
+}
+.OwnerName{
+    width: max-content;
+    height: max-content;
+    font-family: 'Inter-Bold';
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+.OwnerPhone{
+    width: max-content;
+    height: max-content;
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+#phoneIcon{
+    position: absolute;
+    margin-top: 3px;
+    width: 16px;
+    height: 16px;
+}
 
 
