@@ -196,7 +196,28 @@
 .leaflet-container {
     margin: 20px;
     width: 330px;
-    height: 200px;
+    height: 190px;
     border-radius: 12px;
 }
 
+.PublicDate{
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #8E8A86;
+}
+.card_text{
+    width: 745px;
+    height: max-content;
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-indent: 40px;
+    color: #25201A;
+}
