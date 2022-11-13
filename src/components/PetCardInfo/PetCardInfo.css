@@ -162,5 +162,41 @@
     width: 16px;
     height: 16px;
 }
-
+.LocationMapBox{
+    box-sizing: border-box;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    left: 770px;
+    top: 320px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 16px;
+}
+.LocationText{
+    width: max-content;
+    height: max-content;
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #25201A;
+    margin: 20px;
+}
+.LocationText span{
+    margin-left: 25px;
+}
+#LocationBoxIcon{
+    position: absolute;
+    margin-top: 1px;
+    width: 22px;
+    height: 22px;
+}
+.leaflet-container {
+    margin: 20px;
+    width: 330px;
+    height: 200px;
+    border-radius: 12px;
+}
 

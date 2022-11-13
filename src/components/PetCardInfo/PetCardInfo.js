@@ -4,6 +4,7 @@ import "./PetCardInfo.css"
 import ImageSlider from "./subcomponents/ImageSlider";
 import locationIcon from "./subcomponents/icons/location_icon.png"
 import Contacts from "./subcomponents/Contacts";
+import CardLocationMap from "./subcomponents/CardLocationMap";
 
 
 
@@ -20,6 +21,7 @@ const PetCardInfo = () => {
             <p className="card_location"><img id='locationIcon' src={locationIcon} alt={'*'}/><span id={"loc_text"}>{cardLocation}</span></p>
             <ImageSlider/>
             <Contacts/>
+            <CardLocationMap/>
         </div>
     )
 }
