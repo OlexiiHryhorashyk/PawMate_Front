@@ -1,7 +1,7 @@
 .tabs {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    max-width: 100%;
     border-style: solid;
     border-width: 1px;
     justify-content: center;
